@@ -5,9 +5,11 @@
   --color-yellow: #ffff00;
   --color-blue: #6a83fb;
   --color-violet: #ae72c2;
+  --color-red: #f75d83;
 
   --transition: .4s;
 
+  --spacing-ultrasmall: 5px;
   --spacing-small: 10px;
   --spacing-medium: 20px;
   --spacing-large: 30px;
@@ -18,6 +20,7 @@
   --font-size-subheader: 18px;
   --font-size-main: 16px;
 
+  --margin-list: 7px;
   --width-max: 1200px;
 
   --text-shadow-yellow:
@@ -30,6 +33,7 @@
 
 
   --border-radius-small: 3px;
+  --border-radius-medium: 5px;
 
   --theme-default-header: #cccc46;
   --theme-default-bgimage: url(static/bg.jpg);

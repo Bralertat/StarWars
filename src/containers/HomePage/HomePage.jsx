@@ -1,5 +1,5 @@
-import s from './HomePage.module.css'
-import cn from 'classnames'
+// import s from './HomePage.module.css'
+// import cn from 'classnames'
 
 const HomePage = () => {
   return <>

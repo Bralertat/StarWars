@@ -1,8 +1,8 @@
-import s from './App.module.css'
-import cn from 'classnames'
 import { Route, Routes } from 'react-router-dom'
 import routesConfig from 'routes/routesConfig'
 import Header from 'components/Header/Header'
+import s from './App.module.css'
+// import cn from 'classnames'
 
 
 const App = () => {

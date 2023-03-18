@@ -23,7 +23,7 @@ const PeoplePage = ({ setErrorApi }) => {
 
   useEffect(() => {
     getResource(API_PEOPLE + queryPage)
-  }, [])//вроде пустой массив нехорошо
+  })//вроде пустой массив нехорошо
 
   const getResource = async (url) => {
     const res = await getApiResource(url)
