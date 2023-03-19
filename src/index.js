@@ -1,3 +1,4 @@
+import ThemeProvider from 'context/ThemeProvider';
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Provider } from 'react-redux';
@@ -11,9 +12,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   // <React.StrictMode>
   <Provider store={store}>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <ThemeProvider>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </ThemeProvider>
   </Provider>
   // </React.StrictMode>
 )
