@@ -1,0 +1,119 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-grey: #9c9c9c;
+  --color-lightgrey: #dfe2df;
+  --color-blue: #6a83fb;
+
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+
+  --font-family-main: sans-serif;
+
+  --font-bold: 600;
+  --transition: .4s;
+  --border-radius-small: 3px;
+}
+
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+img{
+  display: block;
+}
+.UiButton_button__d-c3\+ {
+  min-width: 100px;
+  padding: 10px;
+  border-radius: var(--border-radius-small);
+
+  font-size: var(--font-size-small);
+  font-family: var(--font-family-main);
+  font-weight: var(--font-bold);
+
+  background: none;
+  outline: none;
+
+  transition: var(--transition);
+
+  cursor: pointer;
+}
+.UiButton_button__d-c3\+:disabled,
+.UiButton_button__d-c3\+:disabled:hover {
+  color: var(--color-grey);
+  background-color: transparent;
+  border-color: var(--color-grey);
+  cursor: auto;
+}
+.UiButton_dark__7ZjQX{
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+}
+.UiButton_dark__7ZjQX:hover{
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+.UiButton_light__AGlpP{
+  border: 1px solid var(--color-black);
+  color: var(--color-black);
+}
+.UiButton_light__AGlpP:hover{
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+.UiInput_wrapper__input__zd4DT {
+  --border-radius: 3px;
+  --border: 3px;
+  --clear-width: 35px;
+}
+
+.UiInput_wrapper__input__zd4DT {
+  position: relative;
+  display: inline-flex;
+}
+
+.UiInput_input__ug0-K {
+  min-width: 300px;
+  padding: 10px 15px;
+  padding-right: calc(var(--clear-width) + 10px);
+
+  border: var(--border) solid var(--color-lightgrey);
+  border-radius: var(--border-radius);
+  font-size: var(--font-size-medium);
+  font-family: var(--font-family-main);
+  outline: none;
+}
+
+.UiInput_input__ug0-K:focus {
+  border-color: var(--color-blue);
+
+}
+
+.UiInput_clear__3rYyz {
+  position: absolute;
+  top: var(--border);
+  right: var(--border);
+  /* width: var(--clear-width); нужно либо одно либо другое так фигня получается */
+  height: calc(100% - var(--border) * 2);
+  padding: 10px;
+  object-fit: cover;
+  object-position: center;
+  transition: .5s;
+  opacity: .4;
+  cursor: pointer;
+}
+.UiInput_clear__disabled__KG6r6{
+  opacity: .2;
+}
+.UiLoading_loader__68hN6{
+  width: 120px;
+  height: 120px;
+}
+.UiLoading_shadow__BlCl1{
+  -webkit-filter: drop-shadow(0 0 2px #000);
+          filter: drop-shadow(0 0 2px #000);
+}
+.UiVideo_video__FGrVz{
+  
+}
+
+/*# sourceMappingURL=main.15d11969.css.map*/
